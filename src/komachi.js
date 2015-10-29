@@ -1,9 +1,3 @@
-/*
-* Komachi.js v0.0.1
-* (c) 2015 Üsame Fethullah AVCI <usameavci@gmail.com>
-* License: MIT
-*/
-
 (function(){
 "use strict";
 
@@ -12,7 +6,7 @@
 	Komachi = {
 		Setup : function (options)
 		{
-			if (options.loader != undefined)
+			if (options.loader !== undefined)
 			{
 				PageLoader.setStatus(options.loader.status);
 				PageLoader.setTemplate(options.loader.template);
@@ -60,7 +54,7 @@
 				return this.routes;
 			},
 			Catch : function (){
-				var currentRoute = this.Get(location.hash.replace('#', ''), 'url')
+				var currentRoute = this.Get(location.hash.replace('#', ''), 'url');
 				if(currentRoute)
 				{
 					if ($('ko-view').length < 1)
@@ -96,7 +90,7 @@
 			}
 
 		}
-	}
+	};
 
 
 
@@ -108,20 +102,20 @@
 			return this.status;
 		},
 		setStatus : function (status) {
-			if (status != undefined) this.status = status;
+			if (status !== undefined) this.status = status;
 		},
 		getTemplate : function () {
 			return this.template;
 		},
 		setTemplate : function (template) {
-			if (template != undefined) this.template = template;
+			if (template !== undefined) this.template = template;
 		}
-	}
+	};
 
 	window.onhashchange = function ()
 	{
 		Komachi.Routes.Catch();
-	}
+	};
 
 
 	$(document).ajaxComplete(function(){

@@ -1,0 +1,7 @@
+node_modules
+example
+.idea
+.DS_Store
+*.css.map
+*.psd
+.tmp
