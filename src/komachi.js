@@ -92,8 +92,6 @@
 		}
 	};
 
-
-
 	var PageLoader = {
 		status : true,
 		template : '<div class="ko-loader" style="background-color: #fff; position: fixed; top: 0px; right: 0px; width: 100%; height: 100%; display: none; z-index: 9999; vertical-align: middle; text-align: center; line-height: 250px; color: #8f8f8f;"><h1>Yükleniyor...</h1></div>',
