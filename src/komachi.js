@@ -1,4 +1,3 @@
-// Test
 (function(){
 "use strict";
 
