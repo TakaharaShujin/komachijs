@@ -122,13 +122,6 @@
 		});
 	});
 
-
-
-
-
-
-
-
 	window.Komachi = Komachi;
 
 
