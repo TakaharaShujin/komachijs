@@ -2,7 +2,6 @@
 * Komachi.js v0.0.1
 * (c) 2015 Üsame Fethullah AVCI <usameavci@gmail.com>
 * License: MIT
-*
 */
 
 (function(){
